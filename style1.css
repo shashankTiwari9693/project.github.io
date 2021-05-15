@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    body{
+    background-color: black;
+    background-repeat: no-repeat;
+    
+    
+    
+    }
+    h2{
+        color:peru;
+        font-size: 30px;
+        font-family: cursive;
+        margin-left: 3%;
+    }
+    
+    h4{
+    color: white;
+    margin-top:10%;
+    margin-left: 10%;
+    
+    }
+    h1{
+        color: white;
+        margin-left: 10%;
+        margin-top:20%;
+    }
+    p{
+        color: white;
+        margin-left: 10%;
+    }
+    span{
+        color: peru;
+        text-decoration: none;
+    }
+    
+    /* code by webdevtrick ( https://webdevtrick.com ) */
+    
+      
+     /* code by webdevtrick ( https://webdevtrick.com ) */
+    
+      
+      #menu-nav {
+        max-width: 1000px;
+        margin: 50px auto;
+        background-color:black;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      }
+      
+      #navigation-bar ul {
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      #navigation-bar li {
+        float: left;
+        width: 20%;
+      }
+      #navigation-bar li:hover a::before {
+        right: 0;
+        left: 0;
+      }
+      #navigation-bar a {
+        color:black
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        position: relative;
+        transition: all 0.3s ease;
+      }
+      #navigation-bar a:hover {
+        color:peru;
+      }
+      #navigation-bar a::before {
+        content: "";
+        transition: all 0.4s ease-in-out;
+        position: absolute;
+        right: 50%;
+        left: 50%;
+        bottom: 0;
+        height: 1px;
+        background-color:peru;
+      }
+      #navigation-bar a:hover::before {
+        right: 0;
+        left: 0;
+      }
+      
+      li {
+          list-style: none;
+      }
+    
+    .img{
+    float: right;
+    position:fixed;top:170px;right:10px;
+    
+      }
+      h1:hover{
+color: peru;
+
+      }
